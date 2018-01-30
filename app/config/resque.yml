@@ -1,0 +1,5 @@
+redis:
+    scheme: tcp         # The connection scheme
+    host: 127.0.0.1     # The hostname to connect to
+    port: 6379          # The port to connect to
+    namespace: resque   # The key prefix in Redis
