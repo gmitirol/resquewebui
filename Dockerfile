@@ -1,9 +1,9 @@
-FROM php:7.1-apache
+FROM php:7.2-apache
 LABEL maintainer="martin.pircher@i-med.ac.at"
 LABEL maintainer="andreas.erhard@i-med.ac.at"
 
 # build:
-# docker build -t gmitirol/resquewebui -f .docker/Dockerfile .
+# docker build -t gmitirol/resquewebui .
 # run:
 # docker stop resquewebui && docker run --rm -p 80:80 --name resquewebui gmitirol/resquewebui
 
@@ -29,7 +29,7 @@ COPY ./ /var/www/project
 RUN set -xe && \
     chmod +x bin/console && \
     rm -rf .docker && \
-	rm -f Dockerfile
+    rm -f Dockerfile
 
 # composer
 RUN set -xe && \

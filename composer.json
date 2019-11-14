@@ -23,13 +23,13 @@
         ]
     },
     "require": {
-        "php": "^5.6 || ^7.0",
-        "symfony/asset": "^3.1",
-        "symfony/console": "^3.1",
-        "symfony/framework-bundle": "^3.1",
-        "symfony/security-bundle": "^3.1",
-        "symfony/templating": "^3.1",
-        "symfony/twig-bundle": "^3.1",
+        "php": "^7.2",
+        "symfony/asset": "^3.4.35",
+        "symfony/console": "^3.4.35",
+        "symfony/framework-bundle": "^3.4.35",
+        "symfony/security-bundle": "^3.4.35",
+        "symfony/templating": "^3.4.35",
+        "symfony/twig-bundle": "^3.4.35",
         "incenteev/composer-parameter-handler": "^2.1",
         "sensio/distribution-bundle": "^5.0",
         "andaris/resque-webui-bundle": "dev-master"
