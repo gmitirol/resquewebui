@@ -32,7 +32,7 @@
         "symfony/twig-bundle": "^3.4.35",
         "incenteev/composer-parameter-handler": "^2.1",
         "sensio/distribution-bundle": "^5.0",
-        "andaris/resque-webui-bundle": "dev-master"
+        "andaris/resque-webui-bundle": "^1.0"
     },
     "scripts": {
         "symfony-scripts": [
